@@ -1,0 +1,511 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 2rem;
+    color: rgb(211, 214, 218);
+        background-color: rgba(0, 0, 0, 0.744);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container{
+    width: 95%;
+        max-width: 1900px;
+        margin: 0 auto;
+}
+ a {
+    color: aliceblue;
+}
+.contact{
+    display: flex;
+    justify-content: space-between;
+    padding: .5em 2em;
+    background-color: black;
+    margin-top: .7em;
+}
+.call{
+    color: #fff;
+}
+.social-list{
+    display: flex;
+    list-style-type: none;
+    
+}
+.social-list a{
+                margin-right: 1em;
+}
+.social-font{
+    width: 1.7rem;
+}
+.social-font:hover{
+    width: 2.3rem;
+}
+
+.header{
+    background-color: aliceblue;
+    padding: 2.5em 1em 0 2em;
+}
+
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2em;
+}
+.img-shift{
+    margin-right: .7em;
+}
+.head-1{
+        display: flex;
+        justify-content: space-between;
+       
+            
+}
+.phone{
+    display: flex;
+    margin-right: 1em;
+    margin-top: 1em;
+}
+.email{
+    display: flex;
+    margin-top: 1em;
+    margin-right: 1.8em;
+}
+nav{
+  background-color: black;
+}
+.pages{
+        display: flex;
+        list-style-type: none;
+        justify-content: space-between;
+        margin-left: -1em;
+        
+}
+.pages a{
+    font-size: 1.2rem;
+    text-decoration: none;
+    font-weight: 700;
+    
+}
+
+.pages a:hover{
+    color: rgb(255, 21, 0);
+    font-size: 1.55rem;
+}
+
+span{
+   background-color: black;
+   padding: .8em 2em;
+   align-items: center;
+  
+
+}
+.yellow{
+                background-color: rgb(230, 168, 13);
+                display: flex;
+                padding: .3em 2.22em;
+                align-items: center;
+                
+}
+h1{
+    font-size: 3.0rem;
+    margin-bottom: .3em;
+    color: black;
+}
+.note-1{
+    font-size: 1.5rem;
+    color: rgba(0, 0, 0, 0.445);
+}
+.calls{
+    color: black;
+    font-weight: 900;
+}
+
+ .main{
+    color: #fff;
+     background:rgba(0, 0, 0, 0.375) url(Capture\ background.PNG);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-blend-mode: darken;
+            background-position: center;
+            padding: 4em 2em; 
+}
+.container .main{
+    display: flex;
+color: #ffffffc9;
+font-size: 1.7rem;
+font-family: cursive;
+} 
+.main-note{
+    margin-top: 12em;
+    padding: 4em;
+    margin-left: -2em;
+   
+}
+.note-2-1{
+    font-size: 3.9rem;
+    color: #ffffffe5;
+}
+
+.form{
+    background-color: rgba(0, 0, 0, 0.579);
+    padding: 1.5em;
+    margin-right: 1em;
+}
+.note-2-1-1{
+    font-size: 3rem;
+    color: rgb(230, 168, 13);
+    margin-bottom: .6em;
+    text-align: center;
+}
+.note-2-2{
+          font-family: cursive;
+}
+input{
+    padding: 1em;
+    width: 100%;
+    font-size: 1.7rem ;
+    margin-top: .6em;
+        font-family: cursive;
+        border-radius: .5em;
+}
+textarea{
+    padding: 1em;
+        width: 100%;
+        font-size: 1.7rem;
+        margin-top: .6em;
+        appearance: none;
+        font-family: cursive;
+        border-radius: .5em;
+        margin-bottom: 1em;
+}
+
+::-webkit-input-placeholder{
+    color: rgba(128, 128, 128, 0.579);
+}
+
+button{
+    text-align: center;
+    justify-content: center;
+    margin-left: 4em;
+    padding: .6em;
+    width: 70%;
+    font-size: 1.4rem;
+    font-weight: 700;
+    border-radius: .5em;
+    margin-bottom: 2em;
+    font-family: cursive;
+   background-color:  rgb(230, 168, 13);
+   cursor: pointer;
+}
+button:hover{
+    background-color: rgb(255, 183, 0);
+    font-size: 1.65rem;
+}
+
+@media (max-width: 768px){
+    .contact {
+            padding: .4em .6em;
+            font-size: 1.2rem;
+}
+.social-font {
+    width: 1.1rem;
+}
+.header {
+   font-size: .2rem;
+}
+.header-container{
+    padding: 5em;
+}
+.img-shift{
+    width: 10em;
+}
+h1{
+    font-size: 1rem;
+}
+.note-1{
+    font-size: .6rem;
+}
+.head-sub img{
+    width: 7em;
+}
+
+.pages a {
+    font-size: .5rem;
+}
+span {
+    padding: .8em 8.9em;
+}
+
+.yellow {
+    padding: .3em 8.2em;
+}
+
+.main{
+    justify-content: center;
+    width: 100%;
+}
+.container .main {
+    display: block;
+    font-size: 1.2rem;
+}
+.main-note {
+   margin-top: -5em;
+}
+.form{
+    margin-top: -3em;
+}
+.note-2-1{
+    font-size: 2.3rem;
+}
+.note-2-1-1{
+    font-size: 2rem;
+}
+input {
+    font-size: 1rem;
+}
+
+textarea {
+    font-size: 1rem;
+}
+
+
+button {
+    margin-left: 5em;
+    font-size: 1rem;
+    
+}
+}
+@media (min-width: 769px){
+    .contact {
+            padding: .4em .6em;
+            font-size: 1.2rem;
+}
+.social-font {
+    width: 1.1rem;
+}
+.header {
+   font-size: .2rem;
+   width: 100%;
+}
+.header-container{
+    padding: 5em;
+    width: 100%;
+}
+.img-shift{
+    width: 10em;
+}
+h1{
+    font-size: 1rem;
+}
+.note-1{
+    font-size: .6rem;
+}
+.head-sub img{
+    width: 7em;
+}
+nav{
+    width: 100%;
+}
+
+.pages a {
+    font-size: .5rem;
+    width: 100%;
+}
+span {
+    padding: .8em 8.9em;
+    width: 100%;
+}
+
+.yellow {
+    padding: .3em 8.2em;
+    width: 100%;
+}
+
+.main{
+    justify-content: center;
+    width: 100%;
+}
+.container .main {
+    display: block;
+    font-size: 1.2rem;
+}
+.main-note {
+   margin-top: -5em;
+}
+.form{
+    margin-top: -3em;
+}
+.note-2-1{
+    font-size: 2.3rem;
+}
+.note-2-1-1{
+    font-size: 2rem;
+}
+input {
+    font-size: 1rem;
+}
+
+textarea {
+    font-size: 1rem;
+}
+
+
+button {
+    margin-left: 5em;
+    font-size: 1rem;
+    
+}
+}
+@media (min-width: 1024px){
+    .contact {
+            padding: .4em .6em;
+            font-size: 1.2rem;
+}
+.social-font {
+    width: 1.1rem;
+}
+.header {
+   font-size: .2rem;
+}
+.header-container{
+    padding: 5em;
+}
+.img-shift{
+    width: 15em;
+}
+h1{
+    font-size: 1.5rem;
+}
+.note-1{
+    font-size: .9rem;
+}
+.head-sub img{
+    width: 7em;
+}
+
+.pages a {
+    font-size: .7rem;
+}
+span {
+    padding: .8em 8.9em;
+}
+
+.yellow {
+    padding: .3em 8.2em;
+}
+
+.main{
+    justify-content: center;
+    width: 100%;
+}
+.container .main {
+    display: flex;
+    font-size: 1.2rem;
+}
+.main-note {
+   margin-top: 6em;
+}
+.form{
+    margin-top: 2em;
+}
+.note-2-1{
+    font-size: 2.3rem;
+}
+.note-2-1-1{
+    font-size: 2rem;
+}
+input {
+    font-size: 1rem;
+}
+
+textarea {
+    font-size: 1rem;
+}
+
+
+button {
+    margin-left: 2.5em;
+    font-size: 1rem;
+    
+}
+}
+@media (min-width: 1500px){
+    .contact {
+            padding: .9em 1.9em;
+            font-size: 1.7rem;
+}
+.social-font {
+    width: 1.5rem;
+}
+.header {
+   font-size: .4rem;
+}
+.header-container{
+    padding: 6em;
+}
+.img-shift{
+    width: 12em;
+}
+h1{
+    font-size: 2.1rem;
+    margin-top: .1em;
+
+}
+.note-1{
+    font-size: 1.3rem;
+
+    
+}
+.head-sub img{
+    width: 10em;
+    margin-right: .9em;
+}
+
+.pages a {
+    font-size: 1rem;
+}
+span {
+    padding: .8em 8.9em;
+}
+
+.yellow {
+    padding: .3em 8.2em;
+}
+
+.main{
+    justify-content: center;
+    width: 100%;
+}
+.container .main {
+    display: flex;
+    font-size: 1.5rem;
+}
+.main-note {
+   margin-top: 13em;
+}
+.form{
+    margin-top: 2em;
+}
+.note-2-1{
+    font-size: 3rem;
+}
+.note-2-1-1{
+    font-size: 2.7rem;
+}
+input {
+    font-size: 1.6rem;
+}
+
+textarea {
+    font-size: 1.6rem;
+}
+
+
+button {
+    margin-left: 2.8em;
+    font-size: 1.3rem;
+    
+}
+}
